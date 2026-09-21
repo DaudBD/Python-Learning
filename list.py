@@ -11,3 +11,22 @@ print(thislist[-4:-1])
 thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
+
+
+my = ["apple", "banana", "cherry"]
+my[1] = "blackcurrant"
+
+my.append("Lemon")
+print(my)
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
+print(thislist)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
