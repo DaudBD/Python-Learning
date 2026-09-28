@@ -45,3 +45,10 @@ print(x)
 
 #convert to list to display the content of x:
 print(list(x))
+
+for x in range(-4):
+  print(x) 
+
+  cars = ["Ford", "Volvo", "BMW"]
+
+  print(cars)
