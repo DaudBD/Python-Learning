@@ -48,3 +48,32 @@ plane1 = Plane("Boeing", "747")
 for vehicle in (car1, boat1, plane1):
     vehicle.movie()
     
+
+
+    # Create the Cat class
+class Cat:
+  def sound(self):
+    print("Meow")
+
+class Fox :
+      def sound(self):
+       print("Wa-pa-pa-pa-pa-pow!")
+# Create the Fox class
+c1 =Cat()
+f1 = Fox()
+
+# Create objects and loop
+for x in [c1, f1]:
+      x.sound()
+
+class Person:
+    def __init__(self):
+        self.__age = 25
+
+    def get_age(self):
+        return self.__age
+
+
+p1 = Person()
+
+print(p1.get_age())
